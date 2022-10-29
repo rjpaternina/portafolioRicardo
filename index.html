@@ -29,7 +29,7 @@
     
         <section id="home">
             <div class="img-container">
-                <img class="profile" src="/images/Ricardo.png" alt="Foto de perfil">
+                <img class="profile" src="/images/perfil.jpg" alt="Foto de perfil">
             </div>
             <div class="description">
                 <h1>Dev profile</h1>
@@ -38,8 +38,22 @@
             </div>
         </section>
         <section id="sobre-mi">
+            <div>
             <h2>Sobre mí</h2>
-            <p>Soy desarrollador Java Full Stack con experiencia en tecnologías HTML, CSS y Javascript del lado del frontend; y, Java SE y MySQL en el backend; así como, tambien, con Git y Github.  Estoy interesado en vincularme, como desarrollador Java Full Stack, a equipos de desarrollo de software altamente competitivos y visionarios, enfocados en generar valor a las organizaciones y en crear nuevos modelos de negocio.</p>
+            <p>Soy desarrollador Java Full Stack con experiencia en tecnologías HTML, CSS y Javascript, del lado del frontend; y, Java SE y MySQL en el backend; así como, tambien, usando herramientas de control de versiones y de rabajo colaborativo como Git, Github y Scrum.  Me entusiasma ser parte de equipos de trabajos altamente competitivos y visionarios, enfocados en generar valor a las organizaciones y en crear nuevos modelos de negocio.</p>
+            </div>
+            <div>
+                <nav>
+                    <ul class="redes-sociales">
+                        <li>
+                            <a href="https://www.linkedin.com/in/ricardo-paternina/" target="_blank"><img src="/icons/10.1_Linkedin.png" alt="perfil-linkedin"></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/rjpaternina" target="_blank"><img src="/icons/5.1Github.png" alt="perfil-Github"></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </section>
         <section id="skills">
             <div>                
@@ -47,37 +61,37 @@
                 <nav>
                     <ul class="tecnologias">
                         <li>
-                            <img src="/logos/1.1_HTML+CSS.png" alt="">
+                            <img src="/icons/1.1_HTML+CSS.png" alt="">
                             <h3>HTML+CSS+JS</h3>
                         </li>
                         <li>
-                            <img src="/logos/3.1_Java.png" alt="">
+                            <img src="/icons/3.1_Java.png" alt="">
                             <h3>Java</h3>
                         </li>
                         <li>
-                            <img src="/logos/2.1.1_MySQL.png" alt="">
+                            <img src="/icons/2.1.1_MySQL.png" alt="">
                             <h3>MySQL</h3>
                         </li>
                         <li>
-                            <img src="/logos/4.1_Git.png" alt="">
+                            <img src="/icons/4.1_Git.png" alt="">
                             <h3>Git</h3>
                         </li>
                         <li>
-                            <img src="/logos/5.1Github.png" alt="">
+                            <img src="/icons/5.1Github.png" alt="">
                             <h3>Github</h3>
                         </li>
                     </ul>
                 </nav>
             </div>
         </section>
-        <section>
+        <section id="proyectos">
             <div>
                 <h2>Proyectos</h2>
             </div>
             <nav>
                 <ul class="proyectos">
                     <li> 
-                        <a href="https://rjpaternina.github.io/retoQueen/"><img src="/images/queen.png" alt="proyecto-queen"></a>
+                        <a href="https://rjpaternina.github.io/retoQueen/" target="_blank"><img src="/images/queen.png" alt="proyecto-queen"></a>
                     </li>
                 </ul>
             </nav>
@@ -87,23 +101,22 @@
                 <h3>Contacto</h3>
                 <fieldset>
                     <label for="name">Nombre:</label>
-                    <input type="text" id="name" name="nombre" required>
+                    <input class="form-input" type="text" id="name" name="nombre" required>
                     <label for="email">Email:</label>
-                    <input type="email" id="email" nombre="correo" required>
+                    <input class="form-input" type="email" id="email" nombre="correo" required>
                     <br>
                     <label for="message">Mensaje:</label>
-                    <input type="textarea" id="message" nombre="mensaje" required>
+                    <input class="form-input" type="textarea" id="message" nombre="mensaje" required>
                     <br>
-                    <input type="submit" name="Enviar" id="send">
+                    <input class="form-input" type="submit" name="Enviar" id="send">
                 </fieldset>
             </form>
         </section>
     
     
     <footer class="footer">
-        <p>@Copyright <strong>Ricardo Paternina Mora</strong></p>
+        <p>@Copyright <strong>Ricardo Paternina Mora</strong></p>o
         <p>2022</p>
-
     </footer>
 </body>
 </html>

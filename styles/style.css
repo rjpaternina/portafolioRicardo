@@ -46,6 +46,7 @@ p{
 .header-brand {
     width: 25%;
     padding-top: 1em;
+
 }
 
 .header-brand h3{
@@ -78,7 +79,7 @@ nav ul li{
 
 #home{
     height: inherit;
-    
+    background-color: rgb(31, 31, 126);    
 }
 
 .img-container{
@@ -89,11 +90,11 @@ nav ul li{
 }
 
 .profile{
-    clip-path: circle(40%);
+    clip-path: circle(35%);
     aspect-ratio: 1/1;
     object-fit:cover;
     width: 80%;
-    transition: 1S;
+    transition: 0.8S;
 }
 
 .profile:hover{
@@ -108,8 +109,13 @@ nav ul li{
 
 /*  SECTION ABOUT  */
 
-#sobre-mi{
-    
+#sobre-mi {
+    width: 940px;
+    margin: 0 auto;    
+}
+
+.redes-sociales li{
+    width: 46%;
 }
 
 
@@ -142,7 +148,8 @@ nav ul li{
 /* SECTION CONTACT */
 
 .contact-form{
-    width: 940px;
+
+
 }
 
 /* SECTION FOOTER */
